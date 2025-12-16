@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maps Lead Scraper Pro - Ultimate Lead Solution</title>
+    <title>Maps Lead Extractor Pro - Unlimited B2B Leads</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -13,33 +13,21 @@
             letter-spacing: -1px;
         }
 
-        .highlight-yellow {
-            background-color: #fef08a;
-            padding: 0 5px;
+        .bg-hero-pattern {
+            background-image: linear-gradient(to bottom right, #1e3a8a, #1e40af);
         }
 
-        .cta-button {
-            animation: pulse 2s infinite;
+        .checkmark-list li {
+            margin-bottom: 0.5rem;
+            display: flex;
+            alignItems: center;
         }
 
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-                box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7);
-            }
-
-            70% {
-                transform: scale(1.05);
-                box-shadow: 0 0 0 10px rgba(220, 38, 38, 0);
-            }
-
-            100% {
-                transform: scale(1);
-                box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
-            }
+        .checkmark-list i {
+            color: #10b981;
+            margin-right: 0.5rem;
         }
 
-        /* Hide elements that don't match current language */
         [data-lang]:not(.active-lang) {
             display: none;
         }
@@ -56,275 +44,360 @@
             class="px-3 py-1 rounded-full text-sm font-bold text-gray-600 hover:bg-gray-100 transition">ES</button>
     </div>
 
-    <!-- Top Warning Bar -->
-    <div class="bg-red-700 text-white text-center py-2 font-bold text-sm uppercase tracking-wide">
-        <span data-lang="en">⚠️ Attention: Launch Offer Available For A Limited Time</span>
-        <span data-lang="es">⚠️ Atención: Oferta de Lanzamiento Disponible Por Tiempo Limitado</span>
-    </div>
-
-    <!-- Main Container -->
-    <div class="max-w-4xl mx-auto bg-white shadow-2xl overflow-hidden border-x border-gray-200">
-
-        <!-- Header / Headline Section -->
-        <header class="text-center pt-12 pb-8 px-6 md:px-12">
-            <p class="text-gray-600 font-bold mb-4 uppercase tracking-widest text-xs md:text-sm">
-                <span data-lang="en">For Agencies, Freelancers & Business Owners...</span>
-                <span data-lang="es">Para Agencias, Freelancers y Dueños de Negocios...</span>
+    <!-- SECTION 1: HEADLINE -->
+    <header class="bg-hero-pattern text-white pt-16 pb-20 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <!-- English -->
+            <p class="text-yellow-300 font-bold uppercase tracking-widest text-sm mb-4 animate-pulse" data-lang="en">
+                ATTENTION: Local Marketers, Agencies & B2B Consultants...
             </p>
-
-            <h1 class="sales-headline text-4xl md:text-6xl font-extrabold text-red-700 leading-tight mb-6">
-                <!-- English Headline -->
-                <span data-lang="en">HOW TO GET UNLIMITED "HIGH QUALITY" LEADS FROM ONLINE MAPS&trade; <span
-                        class="bg-yellow-200 px-2 text-black">IN MINUTES</span></span>
-                <!-- Spanish Headline -->
-                <span data-lang="es">CÓMO OBTENER LEADS ILIMITADOS DE "ALTA CALIDAD" DESDE MAPAS ONLINE&trade; <span
-                        class="bg-yellow-200 px-2 text-black">EN MINUTOS</span></span>
+            <h1 class="sales-headline text-4xl md:text-6xl font-extrabold leading-tight mb-6" data-lang="en">
+                STOP Manually Copy-Pasting Data From Online Maps!
             </h1>
-
-            <p class="text-xl md:text-2xl text-gray-700 font-medium mb-8 leading-relaxed">
-                <span data-lang="en">No Ads. No Expensive Databases. 100% Autopilot.</span>
-                <span data-lang="es">Sin pagar anuncios, sin bases de datos costosas y 100% en piloto automático.</span>
-            </p>
-
-            <!-- VSL / Demo Video Placeholder -->
-            <div class="aspect-w-16 aspect-h-9 bg-black rounded-lg shadow-2xl mb-10 flex items-center justify-center relative overflow-hidden group border-4 border-gray-800"
-                style="min-height: 400px;">
-                <div class="absolute inset-0 flex flex-col items-center justify-center text-white">
-                    <i
-                        class="fas fa-play-circle text-7xl mb-4 group-hover:scale-110 transition-transform cursor-pointer text-red-600 bg-white rounded-full"></i>
-                    <p class="font-bold text-lg" data-lang="en">DEMO VIDEO PLACEHOLDER</p>
-                    <p class="font-bold text-lg" data-lang="es">ESPACIO PARA VIDEO DEMO</p>
-                </div>
-            </div>
-
-            <!-- First CTA -->
-            <div class="my-8 text-center">
-                <!-- WARRIORPLUS BUY BUTTON PLACEHOLDER -->
-                <div class="border-4 border-dashed border-red-500 bg-red-50 p-6 rounded-lg mb-4">
-                    <p class="font-bold text-red-600 text-xl mb-2" data-lang="en">WARRIORPLUS BUY BUTTON SPACE</p>
-                    <p class="font-bold text-red-600 text-xl mb-2" data-lang="es">ESPACIO PARA BOTÓN DE WARRIORPLUS</p>
-                </div>
-
-                <p class="text-gray-500 text-sm mt-2">
-                    <i class="fas fa-lock text-green-500"></i>
-                    <span data-lang="en">One-Time Payment - 30 Day Guarantee</span>
-                    <span data-lang="es">Pago Único - 30 Días de Garantía</span>
-                </p>
-                <div class="flex justify-center mt-4 space-x-2">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal"
-                        class="h-6 opacity-60">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1280px-Mastercard-logo.svg.png"
-                        alt="Mastercard" class="h-6 opacity-60">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png"
-                        alt="Visa" class="h-6 opacity-60">
-                </div>
-            </div>
-        </header>
-
-        <!-- Problem / Agitation -->
-        <section class="px-8 py-10 bg-gray-100 border-y border-gray-200">
-            <div class="max-w-3xl mx-auto">
-                <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">
-                    <span data-lang="en">Are You Tired of "Chasing" Clients?</span>
-                    <span data-lang="es">¿Estás Cansado de "Perseguir" Clientes?</span>
-                </h2>
-                <div class="space-y-6 text-lg text-gray-700 leading-relaxed">
-                    <p>
-                        <span class="font-bold text-red-600" data-lang="en">Dear Entrepreneur,</span>
-                        <span class="font-bold text-red-600" data-lang="es">Estimado Emprendedor,</span>
-                    </p>
-                    <p data-lang="en">We all know that "Leads" are the oxygen of any business. But getting them is
-                        increasingly difficult and expensive.</p>
-                    <p data-lang="es">Todos sabemos que el "oxígeno" de cualquier negocio son los clientes (Leads). Pero
-                        conseguirlos es cada vez más difícil y costoso.</p>
-
-                    <ul class="list-disc pl-6 space-y-2 marker:text-red-500">
-                        <li>
-                            <strong data-lang="en">Facebook Ads</strong><span data-lang="en"> are getting more expensive
-                                and unstable.</span>
-                            <strong data-lang="es">Facebook Ads</strong><span data-lang="es"> son cada día más caros e
-                                inestables.</span>
-                        </li>
-                        <li>
-                            <strong data-lang="en">Buying Databases</strong><span data-lang="en"> is often a scam (old,
-                                useless data).</span>
-                            <strong data-lang="es">Comprar bases de datos</strong><span data-lang="es"> suele ser una
-                                estafa (datos viejos e inservibles).</span>
-                        </li>
-                        <li>
-                            <strong data-lang="en">Manual Scraping</strong><span data-lang="en"> (copy-pasting) is a
-                                torture that steals hours of your life.</span>
-                            <strong data-lang="es">Hacerlo manual</strong><span data-lang="es"> (copiar y pegar) es una
-                                tortura que te roba horas de vida.</span>
-                        </li>
-                    </ul>
-                    <p class="font-bold">
-                        <span data-lang="en">There has to be a better way... And there is!</span>
-                        <span data-lang="es">Tiene que haber una mejor manera... ¡Y la hay!</span>
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Solution -->
-        <section class="px-8 py-12">
-            <h2 class="text-3xl md:text-4xl font-extrabold text-center text-blue-900 mb-4">
-                <span data-lang="en">Presenting: <span class="text-blue-600">Maps Lead Scraper Pro</span></span>
-                <span data-lang="es">Presentando: <span class="text-blue-600">Maps Lead Scraper Pro</span></span>
+            <h2 class="text-2xl md:text-3xl font-medium text-blue-100 mb-8" data-lang="en">
+                Instantly Extract <span class="bg-yellow-500 text-black px-2 font-bold">Unlimited REAL-TIME LEADS</span>
+                (Phone Numbers, Websites & Addresses) From Business Maps In Seconds... On Autopilot.
             </h2>
-            <p class="text-center text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
-                <span data-lang="en">The desktop software that turns Online Maps (Business Directories) into your
-                    personal lead database.</span>
-                <span data-lang="es">El software de escritorio que convierte los Mapas Online (Directorios de Negocios)
-                    en tu base de datos personal.</span>
-            </p>
 
-            <div class="flex justify-center mb-12">
-                <div class="relative group">
+            <!-- Spanish -->
+            <p class="text-yellow-300 font-bold uppercase tracking-widest text-sm mb-4 animate-pulse" data-lang="es">
+                ATENCIÓN: Marketers Locales, Agencias y Consultores B2B...
+            </p>
+            <h1 class="sales-headline text-4xl md:text-6xl font-extrabold leading-tight mb-6" data-lang="es">
+                ¡DEJA DE Copiar y Pegar Manualmente Datos de Mapas Online!
+            </h1>
+            <h2 class="text-2xl md:text-3xl font-medium text-blue-100 mb-8" data-lang="es">
+                Extrae al Instante <span class="bg-yellow-500 text-black px-2 font-bold">LEADS ILIMITADOS EN TIEMPO
+                    REAL</span> (Teléfonos, Sitios Web y Direcciones) desde Directorios de Mapas en Segundos... En
+                Piloto Automático.
+            </h2>
+
+            <!-- BUTTON CODE - HERO -->
+            <div class="my-8 flex justify-center transform hover:scale-105 transition duration-300">
+                <a href="https://warriorplus.com/o2/buy/n0g9my/b26n6c/bv3t0k"><img
+                        src="https://warriorplus.com/o2/btn/cn250011001/n0g9my/b26n6c/453424"
+                        style="display:block;"></a>
+            </div>
+            <p class="text-sm text-blue-200 mt-2" data-lang="en">One-Time Payment - No Monthly Fees - Windows PC
+                Compatible</p>
+            <p class="text-sm text-blue-200 mt-2" data-lang="es">Pago Único - Sin Mensualidades - Compatible con Windows
+                PC</p>
+        </div>
+    </header>
+
+    <!-- SECTION 2: THE PROBLEM -->
+    <section class="bg-white py-16 px-6">
+        <div class="max-w-3xl mx-auto text-lg leading-relaxed text-gray-700">
+            <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center" data-lang="en">Does this sound like you?</h3>
+            <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center" data-lang="es">¿Te suena familiar?</h3>
+
+            <div data-lang="en">
+                <p class="mb-6">You know that <strong>Local Businesses</strong> need marketing services right now more
+                    than ever. Restaurants need menus, Gyms need ads, Dentists need SEO.</p>
+                <p class="mb-6">But finding them is a nightmare.</p>
+            </div>
+            <div data-lang="es">
+                <p class="mb-6">Sabes que los <strong>Negocios Locales</strong> necesitan servicios de marketing ahora
+                    más que nunca. Restaurantes necesitan menús, Gimnasios necesitan anuncios, Dentistas necesitan SEO.
+                </p>
+                <p class="mb-6">Pero encontrarlos es una pesadilla.</p>
+            </div>
+
+            <ul class="space-y-4 mb-8 pl-4 border-l-4 border-red-500 bg-red-50 p-6 rounded-r-lg">
+                <li class="flex items-start">
+                    <span class="text-red-600 font-bold mr-2 text-xl">❌</span>
+                    <span data-lang="en">Buying "Lead Lists" is expensive and the data is usually 2 years old.</span>
+                    <span data-lang="es">Comprar "Listas de Leads" es caro y los datos suelen tener 2 años de
+                        antigüedad.</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-red-600 font-bold mr-2 text-xl">❌</span>
+                    <span data-lang="en">Searching manually on Maps takes HOURS just to get 10 contacts.</span>
+                    <span data-lang="es">Buscar manualmente en Mapas toma HORAS solo para conseguir 10 contactos.</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-red-600 font-bold mr-2 text-xl">❌</span>
+                    <span data-lang="en">Hiring a VA to scrape data costs you hundreds of dollars a month.</span>
+                    <span data-lang="es">Contratar un Asistente Virtual para extraer datos te cuesta cientos de dólares
+                        al mes.</span>
+                </li>
+            </ul>
+
+            <div data-lang="en">
+                <p class="text-xl font-bold text-center mb-8">The money is in the list... but <span
+                        class="underline decoration-red-500 decoration-4">BUILDING</span> the list is the hard part.</p>
+                <p class="text-center font-bold text-2xl text-gray-900">Until today.</p>
+            </div>
+            <div data-lang="es">
+                <p class="text-xl font-bold text-center mb-8">El dinero está en la lista... pero <span
+                        class="underline decoration-red-500 decoration-4">CONSTRUIR</span> la lista es la parte difícil.
+                </p>
+                <p class="text-center font-bold text-2xl text-gray-900">Hasta hoy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: THE SOLUTION -->
+    <section class="bg-gray-100 py-16 px-6 border-y border-gray-300">
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-gray-500 uppercase tracking-widest font-bold mb-2" data-lang="en">Introducing:</p>
+            <p class="text-gray-500 uppercase tracking-widest font-bold mb-2" data-lang="es">Presentando:</p>
+
+            <h2 class="text-4xl md:text-5xl font-extrabold text-blue-900 mb-6">MAPS LEAD EXTRACTOR PRO</h2>
+
+            <p class="text-xl text-gray-700 max-w-2xl mx-auto mb-10" data-lang="en">The <strong>"Set & Forget"</strong>
+                Desktop Software that builds your targeted B2B prospect list while you sleep.</p>
+            <p class="text-xl text-gray-700 max-w-2xl mx-auto mb-10" data-lang="es">El Software de Escritorio
+                <strong>"Configura y Olvida"</strong> que construye tu lista de prospectos B2B mientras duermes.</p>
+
+            <div class="bg-white p-8 rounded-xl shadow-xl mb-10">
+                <p class="text-lg text-gray-600 mb-6" data-lang="en">It’s not just a scraper. It’s your <strong>unfair
+                        advantage</strong>. We built a lightweight, powerful Windows application that navigates Business
+                    Maps like a human, but extracts data like a machine.</p>
+                <p class="text-lg text-gray-600 mb-6" data-lang="es">No es solo un scraper. Es tu <strong>ventaja
+                        injusta</strong>. Construimos una aplicación de Windows ligera y potente que navega por Mapas de
+                    Negocios como un humano, pero extrae datos como una máquina.</p>
+
+                <!-- SOFTWARE SCREENSHOT -->
+                <img src="../app_screenshot.png" alt="Interface"
+                    class="rounded-lg border border-gray-200 shadow-lg mx-auto w-full max-w-3xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: HOW IT WORKS -->
+    <section class="bg-white py-16 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12" data-lang="en">Get Fresh Leads in 3 Simple Steps:</h2>
+            <h2 class="text-3xl font-bold text-center mb-12" data-lang="es">Obtén Leads Frescos en 3 Pasos Simples:</h2>
+
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-6">
                     <div
-                        class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200">
-                    </div>
-                    <img src="app_screenshot.png" alt="Software Demo"
-                        class="relative rounded-lg shadow-2xl border border-gray-200 w-full max-w-2xl transform transition group-hover:scale-[1.01]">
+                        class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                        1</div>
+                    <h3 class="text-xl font-bold mb-2" data-lang="en">Target</h3>
+                    <h3 class="text-xl font-bold mb-2" data-lang="es">Apunta</h3>
+                    <p class="text-gray-600" data-lang="en">Enter your keyword (e.g., "Pizza") and your location (e.g.,
+                        "New York").</p>
+                    <p class="text-gray-600" data-lang="es">Ingresa tu palabra clave (ej. "Pizza") y tu ubicación (ej.
+                        "Madrid").</p>
+                </div>
+                <div class="p-6">
+                    <div
+                        class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                        2</div>
+                    <h3 class="text-xl font-bold mb-2" data-lang="en">Extract</h3>
+                    <h3 class="text-xl font-bold mb-2" data-lang="es">Extrae</h3>
+                    <p class="text-gray-600" data-lang="en">Hit "Start" and watch the software go to work. It pulls
+                        business names, website links, and more.</p>
+                    <p class="text-gray-600" data-lang="es">Presiona "Start" y mira cómo trabaja. Extrae nombres,
+                        enlaces web y más.</p>
+                </div>
+                <div class="p-6">
+                    <div
+                        class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                        3</div>
+                    <h3 class="text-xl font-bold mb-2" data-lang="en">Export</h3>
+                    <h3 class="text-xl font-bold mb-2" data-lang="es">Exporta</h3>
+                    <p class="text-gray-600" data-lang="en">Click "Export to CSV" and boom! You have a spreadsheet ready
+                        for your cold email software.</p>
+                    <p class="text-gray-600" data-lang="es">¡Clic en "Exportar a CSV" y listo! Tienes una hoja de
+                        cálculo lista para tu software de email.</p>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="grid md:grid-cols-2 gap-8 mb-12">
-                <!-- Feature 1 -->
-                <div class="flex items-start">
-                    <div class="flex-shrink-0">
-                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-600 text-white"><i
-                                class="fas fa-rocket text-xl"></i></div>
-                    </div>
-                    <div class="ml-4">
-                        <h3 class="text-lg leading-6 font-bold text-gray-900" data-lang="en">Ultra-Fast Extraction</h3>
-                        <h3 class="text-lg leading-6 font-bold text-gray-900" data-lang="es">Extracción Ultra-Rápida
-                        </h3>
-                        <p class="mt-2 text-gray-600" data-lang="en">Hundreds of leads in minutes. Names, phones, and
-                            addresses.</p>
-                        <p class="mt-2 text-gray-600" data-lang="es">Cientos de leads en minutos. Nombres, teléfonos y
-                            direcciones.</p>
-                    </div>
-                </div>
-                <!-- Feature 2 -->
-                <div class="flex items-start">
-                    <div class="flex-shrink-0">
-                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white"><i
-                                class="fas fa-envelope text-xl"></i></div>
-                    </div>
-                    <div class="ml-4">
-                        <h3 class="text-lg leading-6 font-bold text-gray-900" data-lang="en">Smart Email Extractor</h3>
-                        <h3 class="text-lg leading-6 font-bold text-gray-900" data-lang="es">Email Extractor Inteligente
-                        </h3>
-                        <p class="mt-2 text-gray-600" data-lang="en">Visits business websites to find hidden emails not
-                            listed on the map.</p>
-                        <p class="mt-2 text-gray-600" data-lang="es">Visita el sitio web de cada negocio para encontrar
-                            emails ocultos.</p>
-                    </div>
-                </div>
-                <!-- Feature 3 -->
-                <div class="flex items-start">
-                    <div class="flex-shrink-0">
-                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-600 text-white"><i
-                                class="fas fa-file-excel text-xl"></i></div>
-                    </div>
-                    <div class="ml-4">
-                        <h3 class="text-lg leading-6 font-bold text-gray-900" data-lang="en">Export to CSV/Excel</h3>
-                        <h3 class="text-lg leading-6 font-bold text-gray-900" data-lang="es">Exporta a CSV/Excel</h3>
-                        <p class="mt-2 text-gray-600" data-lang="en">Clean data ready for your CRM or Cold Email tools.
-                        </p>
-                        <p class="mt-2 text-gray-600" data-lang="es">Datos limpios y listos para importar a tu CRM.</p>
-                    </div>
+    <!-- SECTION 5: FEATURES -->
+    <section class="bg-gray-50 py-16 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-10" data-lang="en">Why Smart Marketers Are Switching To Maps
+                Lead Extractor Pro:</h2>
+            <h2 class="text-3xl font-bold text-center mb-10" data-lang="es">Por Qué los Marketers Inteligentes se Están
+                Cambiando a Maps Lead Extractor Pro:</h2>
+
+            <div class="bg-white p-8 rounded-xl shadow-lg border-l-8 border-green-500">
+                <ul class="text-lg space-y-4 checkmark-list">
+                    <li>
+                        <span><i class="fas fa-check-circle"></i>
+                            <strong data-lang="en">Real-Time Data:</strong> <span data-lang="en">Unlike databases that
+                                rot, this extracts data LIVE from Maps.</span>
+                            <strong data-lang="es">Datos en Tiempo Real:</strong> <span data-lang="es">A diferencia de
+                                bases de datos viejas, esto extrae datos EN VIVO.</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-check-circle"></i>
+                            <strong data-lang="en">Website Link Extractor:</strong> <span data-lang="en">Automatically
+                                grabs the direct link to the business website.</span>
+                            <strong data-lang="es">Extractor de Enlaces Web:</strong> <span data-lang="es">Obtiene
+                                automáticamente el enlace directo al sitio web del negocio.</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-check-circle"></i>
+                            <strong data-lang="en">100% Legal & Safe:</strong> <span data-lang="en">Simulates human
+                                behavior. No hacking.</span>
+                            <strong data-lang="es">100% Legal y Seguro:</strong> <span data-lang="es">Simula
+                                comportamiento humano. Sin hackeos.</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-check-circle"></i>
+                            <strong data-lang="en">Unlimited Searches:</strong> <span data-lang="en">No "credits".
+                                Search as much as you want.</span>
+                            <strong data-lang="es">Búsquedas Ilimitadas:</strong> <span data-lang="es">Sin "créditos".
+                                Busca cuanto quieras.</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-check-circle"></i>
+                            <strong data-lang="en">One-Time Price:</strong> <span data-lang="en">Pay once, own it
+                                forever.</span>
+                            <strong data-lang="es">Pago Único:</strong> <span data-lang="es">Paga una vez, tenlo para
+                                siempre.</span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: THE OFFER -->
+    <section class="bg-yellow-50 py-16 px-6 border-y border-yellow-200">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6" data-lang="en">What Is A Single Client Worth To You?</h2>
+            <h2 class="text-3xl font-bold text-gray-900 mb-6" data-lang="es">¿Cuánto Vale Un Solo Cliente Para Ti?</h2>
+
+            <p class="text-xl text-gray-700 mb-8" data-lang="en">If you sell a $500 SEO service or a $1,000 website...
+                you only need <strong>ONE lead</strong> to turn into a client to make a massive profit.</p>
+            <p class="text-xl text-gray-700 mb-8" data-lang="es">Si vendes un servicio SEO de $500 o una web de
+                $1,000... solo necesitas <strong>UN lead</strong> que se convierta en cliente para tener una ganancia
+                masiva.</p>
+
+            <p class="text-2xl font-medium mb-8" data-lang="en">This software gives you <em>thousands</em> of leads.</p>
+            <p class="text-2xl font-medium mb-8" data-lang="es">Este software te da <em>miles</em> de leads.</p>
+
+            <div class="bg-white p-10 rounded-2xl shadow-2xl border-4 border-yellow-400 max-w-xl mx-auto">
+                <p class="text-gray-500 mb-4" data-lang="en">Normally, software like this costs $97/month.</p>
+                <p class="text-gray-500 mb-4" data-lang="es">Normalmente, un software así cuesta $97/mes.</p>
+
+                <p class="text-red-600 font-bold mb-6 uppercase" data-lang="en">But for this special Launch Period, we
+                    are removing the monthly fees.</p>
+                <p class="text-red-600 font-bold mb-6 uppercase" data-lang="es">Pero por este Periodo de Lanzamiento,
+                    eliminamos las mensualidades.</p>
+
+                <p class="text-lg font-bold mb-2" data-lang="en">Get Full Access Today For Just:</p>
+                <p class="text-lg font-bold mb-2" data-lang="es">Obtén Acceso Completo Hoy Por Solo:</p>
+
+                <!-- PRICE UPDATE HERE -->
+                <div class="text-5xl font-extrabold text-green-600 mb-2"><span
+                        class="text-gray-400 line-through text-3xl mr-2">$47.00</span> $21.00</div>
+
+                <p class="text-xs text-red-500 font-bold mb-8 animate-pulse" data-lang="en">(Price rising with every
+                    sale!)</p>
+                <p class="text-xs text-red-500 font-bold mb-8 animate-pulse" data-lang="es">(¡El precio sube con cada
+                    venta!)</p>
+
+                <!-- BUTTON CODE - OFFER -->
+                <div class="flex justify-center transform hover:scale-105 transition duration-300">
+                    <a href="https://warriorplus.com/o2/buy/n0g9my/b26n6c/bv3t0k"><img
+                            src="https://warriorplus.com/o2/btn/cn250011001/n0g9my/b26n6c/453424"
+                            style="display:block;"></a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Proof Section -->
-        <section class="bg-gray-50 py-12 px-8 border-y border-gray-200">
-            <h2 class="text-3xl font-bold text-center mb-8">
-                <span data-lang="en">Real User Results</span>
-                <span data-lang="es">Resultados Reales de Nuestros Usuarios</span>
-            </h2>
-            <!-- Proof 1 -->
-            <div class="mb-12 text-center">
-                <p class="font-bold text-gray-600 mb-4 text-lg italic">
-                    <span data-lang="en">"I closed 3 clients worth $500 USD each in my first week using these
-                        leads"</span>
-                    <span data-lang="es">"Cerré 3 clientes de $500 USD en mi primera semana usando estos leads"</span>
-                </p>
-                <img src="income_proof_dashboard.png"
-                    class="mx-auto rounded-lg border-4 border-white shadow-xl max-w-full md:max-w-2xl"
-                    alt="Income Proof">
+    <!-- SECTION 7: GUARANTEE -->
+    <section class="bg-white py-16 px-6">
+        <div
+            class="max-w-4xl mx-auto flex flex-col md:flex-row items-center border-4 border-dashed border-gray-300 p-8 rounded-xl">
+            <div class="md:w-1/3 text-center mb-6 md:mb-0"><i class="fas fa-award text-9xl text-blue-600"></i></div>
+            <div class="md:w-2/3 md:pl-8">
+                <h2 class="text-3xl font-bold mb-4" data-lang="en">30-Day Money Back Guarantee</h2>
+                <h2 class="text-3xl font-bold mb-4" data-lang="es">Garantía de Devolución de 30 Días</h2>
+
+                <p class="text-gray-700 text-lg" data-lang="en">Download Maps Lead Extractor Pro today. Install it. Run
+                    your first search. If you don't generate a list of at least 100 leads in your first 10 minutes, or
+                    if you encounter any technical issue we can't solve, simply email us. We will refund 100% of your
+                    investment. No questions asked.</p>
+                <p class="text-gray-700 text-lg" data-lang="es">Descarga Maps Lead Extractor Pro hoy. Instálalo. Haz tu
+                    primera búsqueda. Si no generas una lista de al menos 100 leads en tus primeros 10 minutos, o si
+                    tienes algún problema técnico que no podamos resolver, envíanos un email. Te devolveremos el 100% de
+                    tu inversión. Sin preguntas.</p>
             </div>
-            <!-- Proof 2 -->
-            <div class="text-center">
-                <p class="font-bold text-gray-600 mb-4 text-lg italic">
-                    <span data-lang="en">"The database I generated in 1 hour is pure gold"</span>
-                    <span data-lang="es">"La base de datos que generé en 1 hora vale oro puro"</span>
-                </p>
-                <img src="leads_spreadsheet_preview.png"
-                    class="mx-auto rounded-lg border-4 border-white shadow-xl max-w-full md:max-w-2xl"
-                    alt="Excel Proof">
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Final CTA -->
-        <footer class="bg-gray-900 text-white py-16 px-8 text-center">
-            <h2 class="text-3xl font-bold mb-4">
-                <span data-lang="en">Don't Miss This Opportunity</span>
-                <span data-lang="es">No Dejes Pasar Esta Oportunidad</span>
-            </h2>
-            <p class="text-xl text-gray-400 mb-8">
-                <span data-lang="en">Price increasing to $97/mo soon. Secure Lifetime Access today.</span>
-                <span data-lang="es">El precio subirá a $97 mensuales pronto. Asegura tu acceso de por vida hoy.</span>
-            </p>
+    <!-- SECTION 8: FAQ & CLOSING -->
+    <section class="bg-gray-900 text-white py-16 px-6">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-10" data-lang="en">Frequently Asked Questions</h2>
+            <h2 class="text-3xl font-bold text-center mb-10" data-lang="es">Preguntas Frecuentes</h2>
 
-            <div class="max-w-md mx-auto">
-                <!-- WARRIORPLUS BUY BUTTON PLACEHOLDER -->
-                <div class="border-4 border-dashed border-red-500 bg-white p-6 rounded-lg mb-4 text-black">
-                    <p class="font-bold text-red-600 text-xl mb-2" data-lang="en">WARRIORPLUS BUY BUTTON</p>
-                    <p class="font-bold text-red-600 text-xl mb-2" data-lang="es">BOTÓN DE WARRIORPLUS</p>
+            <div class="space-y-6 mb-12">
+                <div>
+                    <h3 class="text-xl font-bold text-yellow-500" data-lang="en">Does it work on Mac?</h3>
+                    <h3 class="text-xl font-bold text-yellow-500" data-lang="es">¿Funciona en Mac?</h3>
+                    <p class="text-gray-300" data-lang="en">No, this is a native Windows application (Windows 10/11). If
+                        you have a Mac, you will need Parallels or a VPS.</p>
+                    <p class="text-gray-300" data-lang="es">No, es una aplicación nativa de Windows (Windows 10/11). Si
+                        tienes Mac, necesitas Parallels o un VPS.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-yellow-500" data-lang="en">Are there monthly fees?</h3>
+                    <h3 class="text-xl font-bold text-yellow-500" data-lang="es">¿Hay pagos mensuales?</h3>
+                    <p class="text-gray-300" data-lang="en">No! During this launch, you pay once and own it.</p>
+                    <p class="text-gray-300" data-lang="es">¡No! Durante este lanzamiento, pagas una vez y es tuyo.</p>
                 </div>
             </div>
+            <div class="text-center border-t border-gray-800 pt-12">
+                <p class="text-2xl font-bold mb-8" data-lang="en">Don't wait. The price is increasing automatically.</p>
+                <p class="text-2xl font-bold mb-8" data-lang="es">No esperes. El precio sube automáticamente.</p>
 
-            <p class="text-sm text-gray-500 mt-8 mb-2">
-                Support: <a href="mailto:alejandro.gutierrezb31@gmail.com"
-                    class="underline hover:text-white">alejandro.gutierrezb31@gmail.com</a>
-            </p>
-            <p class="text-xs text-gray-600 mt-4">&copy; 2025 Alejandro Gutiérrez</p>
-        </footer>
+                <!-- BUTTON CODE - CLOSING -->
+                <div class="mb-12 flex justify-center transform hover:scale-105 transition duration-300">
+                    <a href="https://warriorplus.com/o2/buy/n0g9my/b26n6c/bv3t0k"><img
+                            src="https://warriorplus.com/o2/btn/cn250011001/n0g9my/b26n6c/453424"
+                            style="display:block;"></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </div>
+    <!-- FOOTER -->
+    <footer class="bg-black text-gray-500 py-8 text-center text-sm border-t border-gray-800">
+        <p>Copyright 2025 - Maps Lead Scraper Pro - <a href="mailto:alejandro.gutierrezb31@gmail.com"
+                class="underline hover:text-white">Support</a> - Privacy Policy - Terms</p>
+    </footer>
 
-    <!-- Language Script -->
+    <!-- JS for Language Switcher -->
     <script>
         function setLang(lang) {
-            // Update active class on buttons
+            // Update buttons style
             document.getElementById('btn-en').className = lang === 'en'
                 ? "px-3 py-1 rounded-full text-sm font-bold bg-blue-600 text-white transition ring-2 ring-blue-300"
                 : "px-3 py-1 rounded-full text-sm font-bold text-gray-600 hover:bg-gray-100 transition";
-
             document.getElementById('btn-es').className = lang === 'es'
                 ? "px-3 py-1 rounded-full text-sm font-bold bg-blue-600 text-white transition ring-2 ring-blue-300"
                 : "px-3 py-1 rounded-full text-sm font-bold text-gray-600 hover:bg-gray-100 transition";
 
-            // Show/Hide elements
+            // Toggle visibility
             const elements = document.querySelectorAll('[data-lang]');
             elements.forEach(el => {
                 if (el.getAttribute('data-lang') === lang) {
                     el.classList.add('active-lang');
-                    el.style.display = ''; // Reset display to default (block/inline)
+                    el.style.display = ''; // Reset display to css default
                 } else {
                     el.classList.remove('active-lang');
                     el.style.display = 'none';
                 }
             });
         }
-
-        // Default to English on load
-        window.addEventListener('DOMContentLoaded', () => {
-            setLang('en');
-        });
+        // Default language
+        window.addEventListener('DOMContentLoaded', () => { setLang('en'); });
     </script>
 
 </body>
